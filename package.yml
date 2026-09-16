@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.mind
+version: 1.4.1
+name: MIND
+description: "一个简单的自托管提醒应用"
+min_os_version: "1.5.0"
+homepage: https://github.com/Casvt/MIND
+author: Casvt
+locales:
+  zh:
+    description: "一个简单的自托管提醒应用"
+    name: MIND
+  en:
+    description: "A simple self-hosted reminder app"
+    name: MIND

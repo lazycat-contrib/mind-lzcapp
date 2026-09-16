@@ -1,0 +1,15 @@
+application:
+  subdomain: mind
+  background_task: true
+  multi_instance: false
+  upstreams:
+    - location: /
+      backend: http://mind.cloud.lazycat.app.mind.lzcapp:8080/
+services:
+  mind:
+    # upstream: mrcas/mind:v1.4.1
+    image: mrcas/mind:v1.4.1
+    environment:
+      - TZ=Asia/Beijing
+    binds:
+      - /lzcapp/var/db:/app/db
