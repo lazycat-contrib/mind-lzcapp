@@ -8,7 +8,7 @@ application:
 services:
   mind:
     # upstream: mrcas/mind:v1.4.1
-    image: mrcas/mind:v1.4.1
+    image: registry.lazycat.cloud/czyt/mrcas/mind:b3b995d24ab8a742
     environment:
       - TZ=Asia/Beijing
     binds:
