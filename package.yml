@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.mind
+license: GPL-3.0
 version: 1.4.1
 name: MIND
 description: "一个简单的自托管提醒应用"
