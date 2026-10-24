@@ -7,8 +7,8 @@ application:
       backend: http://mind.cloud.lazycat.app.mind.lzcapp:8080/
 services:
   mind:
-    # upstream: mrcas/mind:v1.5.0
-    image: registry.lazycat.cloud/czyt/mrcas/mind:d3226fe3addea3eb
+    # upstream: mrcas/mind:v1.5.1
+    image: registry.lazycat.cloud/czyt/mrcas/mind:bfffb5d8def17dd3
     environment:
       - TZ=Asia/Beijing
     binds:
